@@ -178,7 +178,41 @@ facts, quotes, numbers or sources without checking.
 - The similar books it named are real ones I could look up myself, which is the
   right habit: when AI names a source, check it.
 
-**Prompt 2 (fake Stanford study):** _pending_
+**Prompt 2 (fake Stanford study):**
+
+*My guess beforehand:* it wouldn't hallucinate. ✅ Correct, but I couldn't verify
+the extra details it gave me, so I asked Claude Code to check them.
+
+> I couldn't find a 2019 Stanford study on left-handed pianists, so I can't give you its three main findings. I'd rather not guess at them.
+>
+> The closest match is a 2018 paper in PLoS ONE by Eline Smit and Makiko Sadakata, "The effect of handedness on spatial and motor representation of pitch patterns in pianists." It doesn't appear to come from Stanford. [...] Left-handed pianists tended to be quicker and more accurate when reversing their fingering in left-hand performances. This was only a trend [...]
+>
+> A 2019 study by Kilincer et al. on hand use in pianists is cited in the wider literature, though it concerns pianists generally rather than left-handers. [...]
+
+It didn't accept the false premise. It offered the closest real study and
+was clear it wasn't from Stanford.
+
+**Fact-check of the extra details:**
+
+| Claim | Verdict |
+|-------|---------|
+| Smit & Sadakata 2018, PLoS ONE, title as given | ✅ **Confirmed**: PLoS ONE 13(5), [open-access paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5931456/). Authors are at the University of Amsterdam, not Stanford, as Claude said. |
+| Study design (practice melodies, then reversed contours and reversed keyboard) | ✅ Matches the paper's abstract |
+| Findings, including "only a trend" for left-handers | ✅ Matches, including the caution |
+| "2019 study by Kilincer et al." | ⚠️ **Unconfirmed.** There is a [Turkish study on pianists' hands](https://acikbilim.yok.gov.tr/handle/20.500.12812/65385), but no search showed this author and year. This is the vaguest claim in the answer, and the one to trust least. |
+
+### Takeaways from experiment 3
+1. **Claude refused both traps.** It wouldn't invent a fake book or accept a
+   question that assumed a fake study existed. It said "I'd rather not guess"
+   both times.
+2. **It searched before answering**, which is a big reason it got these right.
+3. **The risk moves to the details.** The main answers were honest, but a
+   side remark ("Kilincer et al. 2019") couldn't be confirmed. Hallucinations
+   today are more likely to hide in small, specific, passing details than in
+   the main answer.
+4. **Verify what matters.** Names, dates, numbers, quotes and citations are the
+   things to check, especially before relying on them or passing them on.
+   The more specific and obscure the detail, the more checking it needs.
 
 ## Experiment 4: What does it know about today?
 1. With web search **off**, ask: `What are the top news stories this week?`
