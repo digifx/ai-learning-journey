@@ -9,7 +9,7 @@ what I tried, what worked, and what I learned.
 | # | Date | Project | What I learned | Status |
 |---|------|---------|----------------|--------|
 | 01 | 2026-10-15 | [Hello, AI](projects/01-hello-ai/) | Calling an AI model from code (needs an API key) | ⏸️ parked for later |
-| 02 | 2026-10-15 | [How AI "thinks"](projects/02-how-ai-thinks/) | Six chat experiments on how AI behaves | 🚧 in progress |
+| 02 | 2026-10-15 | [How AI "thinks"](projects/02-how-ai-thinks/) | Wording shapes answers; AI has no memory of its own; verify details; knowledge cutoff; reasoning; roles and formats | ✅ done |
 
 **Status key:** 🌱 planned · 🚧 in progress · ✅ done · ⏸️ parked · 🔁 revisit
 

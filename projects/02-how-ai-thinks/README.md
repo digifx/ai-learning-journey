@@ -1,7 +1,7 @@
 # 02 – How AI "thinks"
 
 **Date started:** 2026-10-15
-**Status:** 🚧 in progress
+**Status:** ✅ done (2026-10-15)
 **Where:** the Claude app (claude.ai, desktop or mobile). No code needed.
 **Time:** about 30–45 minutes
 
@@ -375,6 +375,26 @@ set up in Projects (project 04).
 ---
 
 ## What I learned
-_(Fill in after the experiments, in your own words. Which result surprised you most?)_
+*In my own words:*
+
+I was surprised by Claude's reasoning ability, and by the fact that it admitted
+to not knowing something. I was also surprised to learn that Claude's memory of
+my conversations is stored separately, as saved notes, and fed back in.
+
+From now on I'll be specific about **who the audience is**, and the **length and
+format** of the results I expect.
 
 ## Questions this raised
+
+**Q: If Claude reads its memory before every answer, will long-term use slow it
+down as the memory gets bigger?**
+
+A: Not in practice. Memory is kept as a short, condensed **summary** of what matters
+(like "favourite fruit: mango"), not a full transcript of every chat, so it stays
+small. It's tiny compared with how much text Claude can read at once. You can view
+and edit it in Settings.
+
+What *does* slow things down is a **very long single chat**: the whole conversation
+is resent every turn, so long chats respond more slowly, use up the Pro plan's
+usage allowance faster, and can eventually hit a length limit.
+**Habit:** start a new chat for each new topic.

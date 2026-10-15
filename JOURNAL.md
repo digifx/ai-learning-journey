@@ -4,6 +4,15 @@ Newest entries at the top.
 
 ---
 
+## 2026-10-15: Finished project 02
+
+Ran six experiments on how Claude behaves. Biggest surprises: how well it
+reasons (it even spotted an impossible puzzle), that it admits when it doesn't
+know, and that "memory" is saved notes fed back in, not the model remembering.
+My rule from now on: say who it's for, how long, and what format.
+
+---
+
 ## 2026-10-15: Change of plan, Pro plan first
 
 Learned that my Claude Pro plan and the API are billed separately, so the API
