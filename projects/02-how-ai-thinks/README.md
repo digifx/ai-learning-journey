@@ -29,6 +29,21 @@ Start a new chat and ask the same question three ways, in **three separate chats
 length and format is the most useful single skill (prompt engineering).
 
 **My results:**
+1. `Why do leaves change color in autumn?`
+   Leaves change color in autumn because the tree stops making chlorophyll, which unmasks pigments that were there all along and, in some species, triggers the production of new ones.
+
+**The green fades.** During spring and summer, leaves are packed with chlorophyll, the pigment that captures sunlight for photosynthesis. It's so abundant that it swamps every other color. As days shorten and nights cool in autumn, the tree begins shutting down this production. It pulls valuable nutrients, like nitrogen, back into the branches and trunk for storage over winter, and the chlorophyll breaks down.
+
+**Yellows and oranges are revealed.** Carotenoids, the same family of pigments that color carrots and corn, are present in the leaf all season. Once the chlorophyll is gone, they show through. This is why trees like birches, aspens, and hickories turn golden yellow.
+
+**Reds and purples are newly made.** Anthocyanins, the pigments behind the color of cranberries and red apples, are mostly produced in autumn, from sugars trapped in the leaf. Maples, sweetgums, and some oaks make a lot of them. Bright sunny days and cool (but not freezing) nights lead to more sugar production and trapping, which is why vivid reds tend to follow that kind of weather. A cloudy, warm autumn usually gives duller color.
+
+**Browns** come from tannins and other waste compounds left in the leaf, most noticeable in oaks.
+
+Finally, the tree seals off the leaf stem with a layer of cells (the abscission layer), and the leaf drops. Shedding leaves lets deciduous trees avoid losing water and risking frost damage when the ground is cold and the sun is weak.
+3. `Explain why leaves change color in autumn to a 7-year-old, using one fun comparison.`
+4. `In exactly one sentence, why do leaves change color in autumn?`
+
 
 ## Experiment 2: Does it remember you?
 1. In a new chat, say: `My favorite fruit is mango. Please remember that.`
