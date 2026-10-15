@@ -338,6 +338,40 @@ set up in Projects (project 04).
 
 **My results:**
 
+**Sentence 1 (given):** ✅ exact format.
+> Score: 3/10
+> Good: The meaning comes through clearly, and you've got the basic shape of a story: who went, where, when, and what happened.
+> Fix: Start with "He and I" instead of "me and him," since this is the subject of the sentence. Use the past tense "went" rather than "goes" to match "yesterday." "Buyed" should be "bought," "alot" is two words ("a lot"), and "stuff" is uncountable, so it never takes an -s. Corrected: "He and I went to the store yesterday and bought a lot of stuff."
+
+**Sentence 2 (mine, same chat, no instructions repeated):**
+"Me and my dog Bagel - he is a staffy - loves to playing ball in the park."
+✅ same role, same format.
+> Score: 5/10
+> Good: Nice use of an aside to add detail about Bagel; it gives the sentence personality, and the dashes set it off correctly.
+> Fix: Put yourself last and use the subject form: "My dog Bagel and I" rather than "Me and my dog Bagel." Because there are two of you, the verb should be "love," not "loves." Choose either "to play" or "playing," not a mix of both. "Staffy" is short for Staffordshire Bull Terrier, so capitalise it. Corrected: "My dog Bagel (he's a Staffy) and I love playing ball in the park."
+
+*Observations:*
+- **The format held both times**, including for a sentence I sent later without
+  repeating any instructions. The role carried on because the whole chat,
+  instructions included, is sent again every turn (the same idea as experiment 2).
+- **"Strict but kind" came through:** it always starts with something genuinely
+  positive, then lists every error with the *reason* for each, not just the fix.
+- **It added a little extra:** a "Corrected:" version inside the Fix line. Helpful,
+  and still within the format, but it's a reminder that AI tends to stretch rules a bit.
+- **The scores are judgments, not measurements.** 3/10 and 5/10 seem fair, but the
+  same sentence in a new chat might get a different number. Treat AI scores as rough guides.
+- **Small style calls presented as rules:** capitalising "Staffy" is common but
+  debatable for a nickname. AI sometimes states preferences as firm rules.
+
+### Takeaways from experiment 6
+1. **A role plus an exact format makes output consistent and predictable.**
+   That's how to get answers in the shape you need, every time.
+2. **Instructions persist through a chat** because the whole conversation is
+   resent each turn. A new chat starts from scratch, which is why Projects
+   (project 04) let you save instructions permanently.
+3. **AI can be a useful tutor**: it explains *why*, not just *what*.
+   Still, keep its scores and style rules in perspective.
+
 ---
 
 ## What I learned
