@@ -1,7 +1,7 @@
 # 01 – Hello, AI
 
 **Date started:** 2026-10-15
-**Status:** 🚧 in progress (code ready, waiting on first run)
+**Status:** ⏸️ parked. The code is ready; it needs a paid API key, which isn't part of the Claude Pro plan. Coming back to this later.
 
 ## Goal
 Talk to an AI model (Claude) from my own code, and understand the basics that sit

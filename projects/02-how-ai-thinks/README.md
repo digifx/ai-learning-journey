@@ -1,0 +1,110 @@
+# 02 – How AI "thinks"
+
+**Date started:** 2026-10-15
+**Status:** 🚧 in progress
+**Where:** the Claude app (claude.ai, desktop or mobile). No code needed.
+**Time:** about 30–45 minutes
+
+## Goal
+Build an accurate gut feeling for how AI models behave: what they're good at,
+where they fail, and why. These six experiments cover the ideas that explain
+most of what you'll see AI do.
+
+## The one idea behind everything
+A model like Claude learned from a huge amount of text to predict **what text
+should come next**. It doesn't look facts up in a database (unless it's given a
+tool like web search), and it only "sees" what's in the current conversation.
+Keep that in mind and most of the results below will make sense.
+
+---
+
+## Experiment 1: Wording changes the answer
+Start a new chat and ask the same question three ways, in **three separate chats**:
+1. `Why do leaves change color in autumn?`
+2. `Explain why leaves change color in autumn to a 7-year-old, using one fun comparison.`
+3. `In exactly one sentence, why do leaves change color in autumn?`
+
+**Look for:** how the length, tone and detail change.
+**The lesson:** AI does what you *describe*. Being specific about audience,
+length and format is the most useful single skill (prompt engineering).
+
+**My results:**
+
+## Experiment 2: Does it remember you?
+1. In a new chat, say: `My favorite fruit is mango. Please remember that.`
+2. Open a **different** new chat and ask: `What's my favorite fruit?`
+
+**Look for:** does it know? If your memory setting is on, it might.
+Ask it: `How do you know that?`
+**The lesson:** the model itself remembers nothing between conversations. Each
+reply is produced only from the text it's given. "Memory" is an app feature
+that saves notes and adds them into new chats. (Settings → check whether memory is on.)
+
+**My results:**
+
+## Experiment 3: Will it make things up?
+In a new chat, ask about a book that **doesn't exist**:
+`Give me a short summary of the 1987 novel "The Glass Orchard" by Henry Malvern.`
+
+Then try a sneakier version:
+`What were the three main findings of the 2019 Stanford study on left-handed pianists?`
+
+**Look for:** does it admit it doesn't know, or invent a confident answer?
+**The lesson:** because AI predicts likely-sounding text, it can produce
+convincing details that are false. This is called **hallucination**. Modern
+models are much better at saying "I'm not sure", but never fully trust specific
+facts, quotes, numbers or sources without checking.
+
+**My results:**
+
+## Experiment 4: What does it know about today?
+1. With web search **off**, ask: `What are the top news stories this week?`
+2. Turn web search **on** (the tools/search toggle near the message box) and ask again.
+
+**Look for:** how the two answers differ, and whether the second one cites sources.
+**The lesson:** a model's knowledge stops at its **training cutoff**. Tools like
+web search let it fetch fresh information. That's your first look at AI using
+*tools*, which becomes a big theme later.
+
+**My results:**
+
+## Experiment 5: Give it room to think
+Ask this puzzle in a new chat:
+`A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?`
+
+Then try a harder one, with extended thinking switched on if your app offers it:
+`I have 3 boxes. One has only apples, one only oranges, one both. All labels are wrong. I may take one fruit from one box. How do I relabel all boxes correctly?`
+
+**Look for:** does it get them right (5 cents, and "pick from the box labelled *both*")?
+If thinking is shown, read how it reasoned.
+**The lesson:** letting a model work through a problem step by step before
+answering makes it noticeably more accurate on tricky problems.
+
+**My results:**
+
+## Experiment 6: Roles and examples
+In a new chat:
+```
+You are a strict but kind writing teacher. Give feedback on this sentence
+in exactly this format:
+Score: x/10
+Good: ...
+Fix: ...
+
+Sentence: "me and him goes to the store yesterday and buyed alot of stuffs"
+```
+Then ask it to do the same for a sentence of your own.
+
+**Look for:** does it follow the format exactly, every time?
+**The lesson:** giving a **role** and an **example format** makes output
+consistent and predictable. This is the basis of the custom instructions you'll
+set up in Projects (project 04).
+
+**My results:**
+
+---
+
+## What I learned
+_(Fill in after the experiments, in your own words. Which result surprised you most?)_
+
+## Questions this raised

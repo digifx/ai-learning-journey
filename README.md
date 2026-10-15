@@ -8,16 +8,18 @@ what I tried, what worked, and what I learned.
 
 | # | Date | Project | What I learned | Status |
 |---|------|---------|----------------|--------|
-| 01 | 2026-10-15 | [Hello, AI](projects/01-hello-ai/) | Calling an AI model from code; tokens and cost; chat memory; prompt wording | 🚧 in progress |
+| 01 | 2026-10-15 | [Hello, AI](projects/01-hello-ai/) | Calling an AI model from code (needs an API key) | ⏸️ parked for later |
+| 02 | 2026-10-15 | [How AI "thinks"](projects/02-how-ai-thinks/) | Six chat experiments on how AI behaves | 🚧 in progress |
 
-**Status key:** 🌱 planned · 🚧 in progress · ✅ done · 🔁 revisit
+**Status key:** 🌱 planned · 🚧 in progress · ✅ done · ⏸️ parked · 🔁 revisit
+
+**What's next:** see the full [Learning Path](LEARNING_PATH.md).
 
 ## Ideas Backlog
 
 Things I want to try next:
 
-- [x] Talk to an AI model from code (first API call): project 01
-- [x] Prompt experiments: same task, different prompts, compare results: project 01
+- [ ] Talk to an AI model from code (first API call): project 01, parked until I'm ready for the API
 - [ ] Build a small tool that uses AI (summarizer, classifier, chatbot)
 - [ ] Give the AI tools to use (a simple agent)
 - [ ] Have AI work with my own documents (retrieval / RAG)

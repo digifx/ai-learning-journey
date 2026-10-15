@@ -4,6 +4,14 @@ Newest entries at the top.
 
 ---
 
+## 2026-10-15: Change of plan, Pro plan first
+
+Learned that my Claude Pro plan and the API are billed separately, so the API
+needs its own credit. Parked project 01 for later and made a [Learning Path](LEARNING_PATH.md)
+focused on the Claude apps and Claude Code. Starting with project 02.
+
+---
+
 ## 2026-10-15: Project 01, Hello AI
 
 Set up my first project: three small Python scripts that talk to Claude
