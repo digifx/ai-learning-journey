@@ -275,6 +275,34 @@ answering makes it noticeably more accurate on tricky problems.
 
 **My results:**
 
+*My guess beforehand:* Claude wouldn't fall for them, as they're fairly easy logic riddles. ✅ Correct.
+
+**Puzzle 1 (bat and ball):** ✅ **$0.05**. It wrote out the algebra
+(x + (x + 1.00) = 1.10), checked the answer ($1.05 + $0.05 = $1.10), and explained
+why the instinctive "10 cents" is wrong (the total would be $1.20).
+
+**Puzzle 2 (mislabelled boxes):** ✅ take one fruit from the box labelled
+**"Apples & Oranges"**. It worked through both cases (draw an apple / draw an
+orange), then explained why picking from either of the other boxes wouldn't work.
+
+*Observations:*
+- It **showed its reasoning step by step** in the answer itself, and checked
+  its own result. Working it through is what stops the "10 cents" slip.
+- It explained *why* the wrong answers are wrong, not just what's right.
+- **Caveat:** both are famous puzzles that appear all over the internet, so
+  Claude has almost certainly seen them, with answers, in training.
+  Getting them right shows it *can* reason, but it could also be remembering.
+  A fair test of reasoning needs a puzzle it can't have seen before.
+
+### Takeaways from experiment 5
+1. **Working step by step makes AI more accurate**, just as it does for people.
+   Claude does this on its own for tricky problems; you can also ask for it
+   ("think it through step by step", "check your answer").
+2. **Ask for the reasoning, not just the answer.** Seeing the steps lets you
+   spot exactly where something went wrong.
+3. **Famous problems are a weak test.** To judge AI reasoning, change the
+   details so it can't rely on a remembered answer.
+
 ## Experiment 6: Roles and examples
 In a new chat:
 ```
