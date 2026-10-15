@@ -215,8 +215,13 @@ was clear it wasn't from Stanford.
    The more specific and obscure the detail, the more checking it needs.
 
 ## Experiment 4: What does it know about today?
-1. With web search **off**, ask: `What are the top news stories this week?`
-2. Turn web search **on** (the tools/search toggle near the message box) and ask again.
+1. In a new chat, ask: `Without searching the web, using only what you learned in training, what are the top news stories this week? Also, when does your training knowledge end?`
+2. In another new chat, ask: `Search the web: what are the top news stories this week?`
+
+*(Newer versions of the Claude app have no on/off switch for web search; Claude
+decides when to search. So we tell it in words whether it may search.
+If your app has a web search toggle, under the slider or "+" icon by the message
+box, you can switch it off instead.)*
 
 **Look for:** how the two answers differ, and whether the second one cites sources.
 **The lesson:** a model's knowledge stops at its **training cutoff**. Tools like
