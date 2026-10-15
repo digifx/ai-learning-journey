@@ -105,7 +105,27 @@ Ask it: `How do you know that?`
 reply is produced only from the text it's given. "Memory" is an app feature
 that saves notes and adds them into new chats. (Settings → check whether memory is on.)
 
-**My results:**
+**My results:** memory is **on** for my account, so it remembered.
+
+| Step | Claude's reply |
+|------|----------------|
+| Chat A: "My favorite fruit is mango…" | "Got it, Kevin: mango is your favourite fruit." |
+| Chat B: "What's my favorite fruit?" | "Mango." |
+| Chat B: "How do you know that?" | "Because it's saved in your memory… That memory carries across conversations." It also pointed to the **"Generate memory from chats"** setting to turn this off, and offered to forget specific things. |
+
+*Observations:*
+- It knew my **name** in chat A without being told. That comes from my account, which
+  the app quietly includes in the conversation.
+- It was open about *why* it knew: memory, not some magic recall.
+
+### Takeaways from experiment 2
+1. **The model itself is still stateless.** Behind the scenes, the app saves notes
+   ("favourite fruit: mango") and *adds them to the text of each new chat*. The model
+   just reads them, the same way `chat.py` in project 01 resends the history.
+2. **Apps add hidden context.** My name, my memories and app instructions are all put
+   in front of my message before Claude sees it. That's why it "knows" things about me.
+3. **I'm in control.** I can view and edit memory, or turn it off, in Settings.
+   Worth knowing before sharing anything private in a chat.
 
 ## Experiment 3: Will it make things up?
 In a new chat, ask about a book that **doesn't exist**:
