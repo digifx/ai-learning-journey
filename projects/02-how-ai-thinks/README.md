@@ -166,6 +166,20 @@ facts, quotes, numbers or sources without checking.
 
 **My results:**
 
+**Prompt 1 (fake novel):** ✅ it did **not** make anything up.
+> I couldn't find any record of a 1987 novel called "The Glass Orchard" by Henry Malvern. It doesn't appear in my own knowledge, and my search turned up only unrelated books with similar titles or names, such as *The Glass Demon* by Helen Grant and *The Orchard* by Charles L. Grant. I'd rather not invent a plot for it.
+>
+> The book may be very obscure, out of print, or listed under a different title or author name. If you can tell me where you came across it (a publisher, ISBN, or a library listing), I can look again. If you have the book or a blurb to hand, I can summarize that. If you're after something similar in feel, I can suggest real novels with orchard or glass imagery.
+
+*Observations:*
+- It **searched the web** before answering ("my search turned up..."), so it
+  checked rather than relying on memory alone. Web search must have been on.
+- It said plainly that it wouldn't invent a plot, and offered honest next steps.
+- The similar books it named are real ones I could look up myself, which is the
+  right habit: when AI names a source, check it.
+
+**Prompt 2 (fake Stanford study):** _pending_
+
 ## Experiment 4: What does it know about today?
 1. With web search **off**, ask: `What are the top news stories this week?`
 2. Turn web search **on** (the tools/search toggle near the message box) and ask again.
