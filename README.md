@@ -4,6 +4,17 @@ A map of everything I build while learning what AI can do.
 Each project lives in its own folder under [`projects/`](projects/) with notes on
 what I tried, what worked, and what I learned.
 
+## 📍 Where I left off
+
+*Last updated: 2026-10-15*
+
+- ✅ Finished **project 02**, How AI "thinks" (six chat experiments)
+- ▶️ **Next:** [project 03, AI with your own stuff](projects/03-ai-with-your-stuff/). Start with experiment 1 (upload a PDF).
+- ⏸️ Project 01 (API) is parked until I'm ready to pay for API credit.
+
+**To continue:** open a new Claude Code session with this repository selected and say
+*"Let's continue my AI learning journey"*. Or just follow the next worksheet in the Claude app.
+
 ## The Map
 
 | # | Date | Project | What I learned | Status |
