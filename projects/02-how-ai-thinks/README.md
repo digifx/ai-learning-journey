@@ -29,26 +29,6 @@ Start a new chat and ask the same question three ways, in **three separate chats
 length and format is the most useful single skill (prompt engineering).
 
 **My results:**
-1. `Leaves change color in autumn because the tree stops making chlorophyll, which unmasks pigments that were there all along and, in some species, triggers the production of new ones.
-
-**The green fades.** During spring and summer, leaves are packed with chlorophyll, the pigment that captures sunlight for photosynthesis. It's so abundant that it swamps every other color. As days shorten and nights cool in autumn, the tree begins shutting down this production. It pulls valuable nutrients, like nitrogen, back into the branches and trunk for storage over winter, and the chlorophyll breaks down.
-
-**Yellows and oranges are revealed.** Carotenoids, the same family of pigments that color carrots and corn, are present in the leaf all season. Once the chlorophyll is gone, they show through. This is why trees like birches, aspens, and hickories turn golden yellow.
-
-**Reds and purples are newly made.** Anthocyanins, the pigments behind the color of cranberries and red apples, are mostly produced in autumn, from sugars trapped in the leaf. Maples, sweetgums, and some oaks make a lot of them. Bright sunny days and cool (but not freezing) nights lead to more sugar production and trapping, which is why vivid reds tend to follow that kind of weather. A cloudy, warm autumn usually gives duller color.
-
-**Browns** come from tannins and other waste compounds left in the leaf, most noticeable in oaks.
-
-Finally, the tree seals off the leaf stem with a layer of cells (the abscission layer), and the leaf drops. Shedding leaves lets deciduous trees avoid losing water and risking frost damage when the ground is cold and the sun is weak.`
-2. `Imagine a tree is like a big green lunchbox factory all summer long. Its leaves are full of a green stuff called chlorophyll, which catches sunshine and turns it into food for the tree.
-
-But the green is so bright and bossy that it hides the yellow and orange colors that were in the leaves the whole time. It's like wearing a bright green raincoat over a yellow and orange sweater.
-
-When autumn comes, the days get shorter and cooler, and the tree says, "Time to rest for winter!" It stops making the green stuff, and the green raincoat slowly fades away. Then the yellow and orange sweater underneath finally gets to show. Some leaves even make new red colors as they get ready to fall.
-
-So the leaves aren't really changing color. They're just taking off their green coats.`
-3. `Leaves change color in autumn because shorter days and cooler temperatures cause trees to stop making green chlorophyll, revealing the yellow and orange pigments (carotenoids) that were there all along, while some trees also produce new red pigments (anthocyanins) from trapped sugars.`
-
 
 ## Experiment 2: Does it remember you?
 1. In a new chat, say: `My favorite fruit is mango. Please remember that.`
