@@ -30,6 +30,36 @@ length and format is the most useful single skill (prompt engineering).
 
 **My results:**
 
+**Prompt 1 (plain question):** about 300 words, organized under bold headings
+(green fades → yellows revealed → reds newly made → browns → leaf drops).
+It explained the science (chlorophyll, carotenoids, anthocyanins, tannins), used
+everyday comparisons (carrots, cranberries), and added extras I didn't ask for:
+why weather affects how bright the colors are, and why trees drop leaves at all.
+The facts check out.
+
+*Observation:* with no instructions about audience or length, Claude chose a
+thorough explainer for a curious adult. It filled in the blanks itself.
+
+<details><summary>Full answer to prompt 1</summary>
+
+> Leaves change color in autumn because the tree stops making chlorophyll, which unmasks pigments that were there all along and, in some species, triggers the production of new ones.
+>
+> **The green fades.** During spring and summer, leaves are packed with chlorophyll, the pigment that captures sunlight for photosynthesis. It's so abundant that it swamps every other color. As days shorten and nights cool in autumn, the tree begins shutting down this production. It pulls valuable nutrients, like nitrogen, back into the branches and trunk for storage over winter, and the chlorophyll breaks down.
+>
+> **Yellows and oranges are revealed.** Carotenoids, the same family of pigments that color carrots and corn, are present in the leaf all season. Once the chlorophyll is gone, they show through. This is why trees like birches, aspens, and hickories turn golden yellow.
+>
+> **Reds and purples are newly made.** Anthocyanins, the pigments behind the color of cranberries and red apples, are mostly produced in autumn, from sugars trapped in the leaf. Maples, sweetgums, and some oaks make a lot of them. Bright sunny days and cool (but not freezing) nights lead to more sugar production and trapping, which is why vivid reds tend to follow that kind of weather. A cloudy, warm autumn usually gives duller color.
+>
+> **Browns** come from tannins and other waste compounds left in the leaf, most noticeable in oaks.
+>
+> Finally, the tree seals off the leaf stem with a layer of cells (the abscission layer), and the leaf drops. Shedding leaves lets deciduous trees avoid losing water and risking frost damage when the ground is cold and the sun is weak.
+
+</details>
+
+**Prompt 2 (for a 7-year-old):** _pending_
+
+**Prompt 3 (one sentence):** _pending_
+
 ## Experiment 2: Does it remember you?
 1. In a new chat, say: `My favorite fruit is mango. Please remember that.`
 2. Open a **different** new chat and ask: `What's my favorite fruit?`
