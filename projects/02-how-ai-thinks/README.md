@@ -56,9 +56,44 @@ thorough explainer for a curious adult. It filled in the blanks itself.
 
 </details>
 
-**Prompt 2 (for a 7-year-old):** _pending_
+**Prompt 2 (for a 7-year-old):** about 150 words, short sentences, a warm tone.
+It kept the word "chlorophyll" but explained it as "green stuff", and dropped
+tannins, the leaf falling off, and the weather details.
+- ⚠️ **It broke a rule:** I asked for *one* fun comparison and got **two**
+  (a "lunchbox factory" *and* a "green raincoat over a yellow sweater").
+- ⚠️ **Simplifying cost some accuracy:** it ends with "the leaves aren't really
+  changing color, they're just taking off their green coats". But one sentence
+  earlier it said some leaves *make new red colors*, which is real change.
+  The kid version contradicts itself slightly to sound neat.
 
-**Prompt 3 (one sentence):** _pending_
+<details><summary>Full answer to prompt 2</summary>
+
+> Imagine a tree is like a big green lunchbox factory all summer long. Its leaves are full of a green stuff called chlorophyll, which catches sunshine and turns it into food for the tree.
+>
+> But the green is so bright and bossy that it hides the yellow and orange colors that were in the leaves the whole time. It's like wearing a bright green raincoat over a yellow and orange sweater.
+>
+> When autumn comes, the days get shorter and cooler, and the tree says, "Time to rest for winter!" It stops making the green stuff, and the green raincoat slowly fades away. Then the yellow and orange sweater underneath finally gets to show. Some leaves even make new red colors as they get ready to fall.
+>
+> So the leaves aren't really changing color. They're just taking off their green coats.
+
+</details>
+
+**Prompt 3 (one sentence):** exactly one sentence ✅, but a long one (about 45 words).
+It squeezed in nearly all the key science, with technical terms in brackets.
+
+> Leaves change color in autumn because shorter days and cooler temperatures cause trees to stop making green chlorophyll, revealing the yellow and orange pigments (carotenoids) that were there all along, while some trees also produce new red pigments (anthocyanins) from trapped sugars.
+
+*Observation:* it followed my rule *literally* (one sentence) rather than in
+spirit (short and simple). If I want short, I should say so: "under 20 words".
+
+### Takeaways from experiment 1
+1. **The same AI, the same facts, three very different answers**, all shaped by a
+   few words of instruction. Audience and length matter most.
+2. **With no instructions, the AI guesses.** Its default is thorough and adult-level.
+3. **AI doesn't always follow instructions exactly.** It ignored "one comparison".
+   Always check the output against what you asked for.
+4. **Instructions get followed literally.** "One sentence" ≠ "short". Say what you actually mean.
+5. **Simplifying can bend the truth.** The kid version traded a bit of accuracy for neatness.
 
 ## Experiment 2: Does it remember you?
 1. In a new chat, say: `My favorite fruit is mango. Please remember that.`
