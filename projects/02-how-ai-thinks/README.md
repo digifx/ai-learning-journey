@@ -303,6 +303,21 @@ orange), then explained why picking from either of the other boxes wouldn't work
 3. **Famous problems are a weak test.** To judge AI reasoning, change the
    details so it can't rely on a remembered answer.
 
+**Bonus: the impossible puzzle.** I asked a twisted version where *exactly one*
+label is wrong, which can't happen (one wrong label always forces another to be wrong).
+✅ **Claude spotted it immediately:**
+> The puzzle as stated can't happen: it's impossible for exactly one label to be wrong. [...] With three boxes and three distinct contents, a wrong label always forces at least one other label to be wrong too. So it's either zero wrong, two wrong (a swap), or all three wrong.
+
+It then guessed I probably meant the classic version and solved that too.
+
+*My reaction:* pleasantly surprised. It didn't just pattern-match to the
+famous puzzle; it noticed the setup was broken and explained why, listing
+every possible case. That gives me more confidence in its reasoning.
+
+*Keeping it in perspective:* one good result builds confidence but doesn't prove
+it never slips. The habit is to trust its reasoning *more* when it shows its working
+and the working checks out, and to keep verifying when the stakes are high.
+
 ## Experiment 6: Roles and examples
 In a new chat:
 ```
