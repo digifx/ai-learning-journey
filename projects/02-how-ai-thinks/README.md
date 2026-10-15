@@ -105,7 +105,31 @@ Ask it: `How do you know that?`
 reply is produced only from the text it's given. "Memory" is an app feature
 that saves notes and adds them into new chats. (Settings → check whether memory is on.)
 
-**My results:** memory is **on** for my account, so it remembered.
+**My results:**
+
+*My guess beforehand:* it would remember, because I'd turned on memory in Settings. ✅ Correct.
+
+1. Chat A: "Got it, Kevin: mango is your favourite fruit."
+2. Chat B, asked "What's my favorite fruit?": "Mango."
+3. Asked "How do you know that?":
+   > Because it's saved in your memory: you've told me before that mango is your favourite fruit. That memory carries across conversations, which is how I could answer straight away without asking.
+   >
+   > If you'd rather I not keep that kind of detail, you can turn off "Generate memory from chats" in Settings, and I can also forget specific things if you ask.
+
+*Observations:*
+- It called me **Kevin** in chat A, though I never typed my name there. The app
+  gives it details from my account and memory as well as what I type.
+- It was open about *how* it knew, and told me how to switch the feature off.
+
+### Takeaways from experiment 2
+1. **The AI model has no memory of its own.** Every reply is produced only from
+   the text it is given at that moment.
+2. **"Memory" is an app feature built around the model.** The app saves short notes
+   about me and quietly adds them to the start of new chats. The model reads them
+   like any other text, so it *seems* to remember.
+3. **That's the same trick as `chat.py` in project 01**, where the program resends the
+   whole history each turn. Memory is a smarter version: it resends a summary.
+4. **I control it.** It's in Settings, and I can ask Claude to forget specific things. memory is **on** for my account, so it remembered.
 
 | Step | Claude's reply |
 |------|----------------|
