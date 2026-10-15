@@ -230,6 +230,37 @@ web search let it fetch fresh information. That's your first look at AI using
 
 **My results:**
 
+**Prompt 1 (no searching allowed):** ✅ it refused to make up news.
+> I can't tell you this week's top stories from training alone. My reliable knowledge runs to the **end of June 2026**, and today is 15 October 2026, so there's a gap of about three and a half months. Anything I listed as "this week's news" would be invented or out of date.
+
+It gave an example of the latest news it *did* know, from around June 2026,
+and offered to search instead.
+
+**Prompt 2 (search allowed):** a long, organized roundup of 12–15 October 2026
+(markets, conflicts, US politics, world, UK, tech) with **9 linked sources**.
+
+*Observations:*
+- **It knew today's date** even though its training ends in June. The app tells
+  it the date, just as it told it my name in experiment 2.
+- **Its answer was aimed at the UK** (a UK news section, British spellings like
+  "favourite" and "centre"), so the app is probably passing along my rough location too.
+- **The sources were a mixed bag:** mostly daily-headline roundups and smaller sites
+  rather than the original reporting. Good enough for an overview; for anything
+  important I'd check a major outlet or the original source.
+- **Small glitches still slip in.** One item says "Hall and Michael Woodford won"
+  the Nobel prize, with the first person's first name missing. Summaries of
+  summaries can lose details.
+
+### Takeaways from experiment 4
+1. **AI has a knowledge cutoff.** Claude's training runs to the end of June 2026;
+   without help it knows nothing after that, and it was honest about it.
+2. **Tools fill the gap.** With web search it went from "I can't tell you" to a
+   current, sourced roundup. AI using tools is a major theme from here on.
+3. **The app adds context I don't see:** the date, my name, probably my location.
+   The model works with whatever text it's given.
+4. **Cited sources let you check, so check their quality.** A link isn't a
+   guarantee; who wrote the source matters.
+
 ## Experiment 5: Give it room to think
 Ask this puzzle in a new chat:
 `A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?`
